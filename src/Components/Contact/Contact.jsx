@@ -1,5 +1,6 @@
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
-import { Button } from "@mui/material";
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa"
+import { Button } from "@mui/material"
+import SlideInSection from "../../Slide"
 
 export default function Contact() {
   return (
@@ -22,7 +23,9 @@ export default function Contact() {
           />
         </div>
       </div>
+      
       <section className="flex bg-black text-gray-100 gap-30 ">
+        <SlideInSection direction="bottom">
         <div className="rounded-2xl p-10 md:p-16 mt-20 ml-20 mb-20 mr-2 bg-[#2c2f33]">
           <h2 className="text-3xl font-bold mb-4">Send us a message</h2>
           <p className="text-gray-400 mb-8 max-w-lg text-m">
@@ -84,7 +87,9 @@ export default function Contact() {
             </Button>
           </form>
         </div>
+        </SlideInSection>
 
+        <SlideInSection direction="bottom">
         <div className="bg-black  mt-40 mr-20 mb-20 ml-2 ">
           <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
           <p className="text-gray-400 mb-8 max-w-lg text-m">
@@ -136,7 +141,9 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        </SlideInSection>
       </section>
+      
     </>
   );
 }

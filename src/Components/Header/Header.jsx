@@ -1,20 +1,20 @@
-import React from "react";
-import { Button } from "@mui/material";
-import { Link, NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import React from "react"
+import { Button } from "@mui/material"
+import { Link, NavLink } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
+import { useState, useEffect } from "react"
 
 const Header = () => {
   const navigate = useNavigate();
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
+      setIsScrolled(window.scrollY > 0)
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
   }, []);
 
   return (
@@ -42,9 +42,9 @@ const Header = () => {
           </Link>
           <Link
             className="hover:text-[#5b8ee2] transition duration-300"
-            to="/contact"
+            to="/about"
           >
-            Contact us
+            About us
           </Link>
           <Link
             className="hover:text-[#5b8ee2] transition duration-300"
@@ -54,11 +54,12 @@ const Header = () => {
           </Link>
           <Link
             className="hover:text-[#5b8ee2] transition duration-300"
-            to="/about"
+            to="/contact"
           >
-            About us
+            Contact us
           </Link>
-          <Link className="hover:text-[#5b8ee2] transition duration-300" to="#">
+
+          <Link className="hover:text-[#5b8ee2] transition duration-300" to="/service">
             Services
           </Link>
           <Link className="hover:text-[#5b8ee2] transition duration-300" to="#">
@@ -87,4 +88,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header

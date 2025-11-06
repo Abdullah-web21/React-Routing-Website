@@ -1,17 +1,18 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { Button } from "@mui/material";
+import { useState, useEffect } from "react"
+import { Button } from "@mui/material"
+import SlideInSection from "../../Slide"
 
 export default function About() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY);
+      setScrollY(window.scrollY)
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
   }, []);
   return (
     <>
@@ -34,7 +35,11 @@ export default function About() {
         </div>
       </div>
 
-      <section className="bg-[#111111] text-white py-30 px-6 md:px-20 flex flex-row items-center gap-20 relative ">
+ 
+      <section className="bg-[#111111] text-white py-30  px-20 flex flex-row items-center  relative ">
+        
+        <SlideInSection direction="bottom">
+        <div className="flex gap-20">
         <div className="w-2/3 flex justify-center z-1">
           <img
             src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/2023/01/3d-artist-using-blueprint-with-graphics-tablet-and-computers-while-working-on-project-of-3d-design-1024x684.jpg"
@@ -43,7 +48,7 @@ export default function About() {
           />
         </div>
 
-        <div className="w-1/2 space-y-6 z-2">
+        <div className="w-1/2 space-y-6 flex flex-col justify-center z-2">
           <h3 className="text-blue-400 uppercase tracking-wide text-sm font-semibold">
             Who We Are
           </h3>
@@ -64,6 +69,7 @@ export default function About() {
               lineHeight: "12px",
               fontWeight: "500",
               padding: "15px 25px",
+              width:"30%",
               fontFamily: "Inter, sans-serif",
             }}
           >
@@ -90,6 +96,8 @@ export default function About() {
             }}
           />
         </div>
+        </div>
+        </SlideInSection>
       </section>
     </>
   );

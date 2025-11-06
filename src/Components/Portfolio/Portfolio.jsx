@@ -1,5 +1,6 @@
-import React from "react";
-import { Button } from "@mui/material";
+import React from "react"
+import { Button } from "@mui/material"
+import SlideInSection from "../../Slide"
 
 export default function Card() {
   return (
@@ -23,18 +24,23 @@ export default function Card() {
         </div>
       </div>
       <div className="flex justify-center gap-6 flex-row flex-wrap pt-40 pb-20 bg-black">
-        <div className="flex justify-center ml-22 mr-18 mb-10   ">
-          <div className="text-white text-3xl flex-1 font-bold">
-            Our latest portfolio
-            <div className="w-20 mt-10 h-0 border-2 border-blue-500"></div>
-          </div>
+       
+          <div className="flex justify-center ml-22 mr-18 mb-10   ">
+            <div className="text-white text-3xl flex-1 font-bold">
+              Our latest portfolio
+              <div className="w-20 mt-10 h-0 border-2 border-blue-500"></div>
+            </div>
 
-          <div className="text-gray-400 flex-1">
-            Ex sollicitudin montes aenean cubilia velit vehicula habitasse lacus
-            lacinia morbi. Lacus pede aliquam sagittis tellus posuere nisl
-            placerat. Volutpat mus odio placerat id mauris porta.
+            <div className="text-gray-400 flex-1">
+              Ex sollicitudin montes aenean cubilia velit vehicula habitasse
+              lacus lacinia morbi. Lacus pede aliquam sagittis tellus posuere
+              nisl placerat. Volutpat mus odio placerat id mauris porta.
+            </div>
           </div>
-        </div>
+       
+
+                                
+        <SlideInSection direction="bottom">
         <div className="w-150 flex flex-col justify-center bg-[#323437] rounded-lg  relative">
           <div>
             <img
@@ -70,7 +76,8 @@ export default function Card() {
             </Button>
           </div>
         </div>
-
+        </SlideInSection>
+        <SlideInSection direction="bottom">
         <div className="w-150 flex flex-col justify-center bg-[#323437] rounded-lg  text-gray-300 shadow-lg relative">
           <div>
             <img
@@ -106,6 +113,9 @@ export default function Card() {
             </Button>
           </div>
         </div>
+        </SlideInSection>
+
+        <SlideInSection direction="bottom">
 
         <div className="w-150 flex flex-col justify-center bg-[#323437] rounded-lg  text-gray-300 shadow-lg relative">
           <div>
@@ -142,6 +152,8 @@ export default function Card() {
             </Button>
           </div>
         </div>
+        </SlideInSection>
+        <SlideInSection direction="bottom">
 
         <div className="w-150 flex flex-col justify-center bg-[#323437] rounded-lg  text-gray-300 shadow-lg relative">
           <div>
@@ -178,6 +190,8 @@ export default function Card() {
             </Button>
           </div>
         </div>
+        </SlideInSection>
+        <SlideInSection direction="bottom">
 
         <div className="w-150 flex flex-col justify-center bg-[#323437] rounded-lg  text-gray-300 shadow-lg relative">
           <div>
@@ -214,6 +228,8 @@ export default function Card() {
             </Button>
           </div>
         </div>
+        </SlideInSection>
+        <SlideInSection direction="bottom">
         <div className="w-150 flex flex-col justify-center bg-[#323437] rounded-lg  text-gray-300 shadow-lg relative">
           <div>
             <img
@@ -249,6 +265,7 @@ export default function Card() {
             </Button>
           </div>
         </div>
+        </SlideInSection>
       </div>
     </>
   );
