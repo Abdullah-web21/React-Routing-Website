@@ -1,20 +1,20 @@
-import React from "react"
-import { Button } from "@mui/material"
-import { Link, NavLink } from "react-router-dom"
-import { useNavigate } from "react-router-dom"
-import { useState, useEffect } from "react"
+import React from "react";
+import { Button } from "@mui/material";
+import { Link, NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const navigate = useNavigate();
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0)
+      setIsScrolled(window.scrollY > 0);
     };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -42,9 +42,9 @@ const Header = () => {
           </Link>
           <Link
             className="hover:text-[#5b8ee2] transition duration-300"
-            to="/about"
+            to="/service"
           >
-            About us
+            Services
           </Link>
           <Link
             className="hover:text-[#5b8ee2] transition duration-300"
@@ -54,17 +54,24 @@ const Header = () => {
           </Link>
           <Link
             className="hover:text-[#5b8ee2] transition duration-300"
+            to="/team"
+          >
+            Team
+          </Link>
+          <Link
+            className="hover:text-[#5b8ee2] transition duration-300"
+            to="/about"
+          >
+            About us
+          </Link>
+
+          <Link
+            className="hover:text-[#5b8ee2] transition duration-300"
             to="/contact"
           >
             Contact us
           </Link>
 
-          <Link className="hover:text-[#5b8ee2] transition duration-300" to="/service">
-            Services
-          </Link>
-          <Link className="hover:text-[#5b8ee2] transition duration-300" to="/team">
-            Team
-          </Link>
         </div>
         <div>
           {/* <button type="button" class="text-white font-poppins bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-8 py-2 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 tracking-wide text-[14px] font-semibold">GET STARTED</button> */}
@@ -88,4 +95,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;
