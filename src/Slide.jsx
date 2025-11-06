@@ -12,8 +12,9 @@ export default function SlideInSection({ direction = "bottom", children }) {
     <motion.div
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true }}
       variants={variants[direction]}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
       className=" bg-transparent"
     >
       {children}

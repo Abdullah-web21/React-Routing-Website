@@ -8,13 +8,11 @@ function App() {
 
   return (
     <>
-    
-    <Header/>
+    <Header />
     <main className="-mt-25">
     <Outlet />
     </main> 
     <Footer />
-
     </>
   )
 }

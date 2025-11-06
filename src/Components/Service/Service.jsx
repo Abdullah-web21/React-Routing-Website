@@ -35,7 +35,7 @@ export default function Service() {
         </div>
       </div>
 
-      <section className="bg-[#111111] text-white py-30  px-20 flex flex-row items-center  relative ">
+      <section className="bg-[#1c1c1c] text-white py-30  px-20 flex flex-row items-center  relative ">
         <SlideInSection direction="bottom">
           <div className="flex align-middle h-auto  gap-20">
             <div className="w-2/3 flex justify-center z-1">
@@ -116,10 +116,12 @@ export default function Service() {
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/SHAPE-TOOL-q0yowynbb7wm7m4dfgr61mcom3mxdrnaftf2wd21a8.png"
                     alt=""
-                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-20"
+                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-30"
                   />
                 </div>
-                <p className="font-semibold text-2xl text-white">3D Modeling</p>
+                <p className="font-semibold text-2xl text-white mb-5">
+                  3D Modeling
+                </p>
                 <p className="text-white m-auto pb-10 text-[16px]">
                   Magna molestie quam sed leo diam convallis potenti si aptent
                   pulvinar inceptos.
@@ -146,10 +148,12 @@ export default function Service() {
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/VIDEO-PLAYER-q0yowzl5i1xwj8309z5sm4457hialgr0ry2kdn0n40.png"
                     alt=""
-                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-20"
+                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-30"
                   />
                 </div>
-                <p className="font-semibold text-2xl text-white">3D Modeling</p>
+                <p className="font-semibold text-2xl text-white mb-5">
+                  3D Animation
+                </p>
                 <p className="text-white m-auto pb-10 text-[16px]">
                   Magna molestie quam sed leo diam convallis potenti si aptent
                   pulvinar inceptos.
@@ -176,10 +180,12 @@ export default function Service() {
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/GAMES-q0yowty4d1q6lkb76wq175jdn6a3ba4mr65nhz905c.png"
                     alt=""
-                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-20"
+                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-30"
                   />
                 </div>
-                <p className="font-semibold text-2xl text-white">3D Modeling</p>
+                <p className="font-semibold text-2xl text-white mb-5">
+                  3D Rigging
+                </p>
                 <p className="text-white m-auto pb-10 text-[16px]">
                   Magna molestie quam sed leo diam convallis potenti si aptent
                   pulvinar inceptos.
@@ -206,10 +212,12 @@ export default function Service() {
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/PAINT-BUCKET-q0yowvtsqpsr8s8gvxjac52aty0tqoc3ffgmgj67sw.png"
                     alt=""
-                    className="absolute -top-10 transition-transform duration-300 ease-in-out hover:rotate-20"
+                    className="absolute -top-10 transition-transform duration-300 ease-in-out hover:rotate-30"
                   />
                 </div>
-                <p className="font-semibold text-2xl text-white">3D Modeling</p>
+                <p className="font-semibold text-2xl text-white mb-5">
+                  NFT Art
+                </p>
                 <p className="text-white m-auto pb-10 text-[16px]">
                   Magna molestie quam sed leo diam convallis potenti si aptent
                   pulvinar inceptos.
@@ -236,10 +244,12 @@ export default function Service() {
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/COLOR-SLIDER-q0yowt0a67ow9yckcebemnrx1seq3l0wf1i60paebk.png"
                     alt=""
-                    className="absolute -top-13 transition-transform duration-300 ease-in-out hover:rotate-20"
+                    className="absolute -top-13 transition-transform duration-300 ease-in-out hover:rotate-30"
                   />
                 </div>
-                <p className="font-semibold text-2xl text-white">3D Modeling</p>
+                <p className="font-semibold text-2xl text-white mb-5">
+                  AR/VR Modeling
+                </p>
                 <p className="text-white m-auto pb-10 text-[16px]">
                   Magna molestie quam sed leo diam convallis potenti si aptent
                   pulvinar inceptos.
@@ -266,10 +276,12 @@ export default function Service() {
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/COLOR-PALLETES-q0yows2fzdnlycdxhvws260ggejcvvx62wuojfbshs.png"
                     alt=""
-                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-20"
+                    className="absolute -top-15 transition-transform duration-300 ease-in-out hover:rotate-30"
                   />
                 </div>
-                <p className="font-semibold text-2xl text-white">3D Modeling</p>
+                <p className="font-semibold text-2xl text-white mb-5">
+                  Product Mockup
+                </p>
                 <p className="text-white m-auto pb-10 text-[16px]">
                   Magna molestie quam sed leo diam convallis potenti si aptent
                   pulvinar inceptos.

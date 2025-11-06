@@ -15,26 +15,17 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-black h-auto text-gray-300 py-20 px-6 border-t border-[#5b8ee2]">
+    <footer className="bg-[#121111] h-auto text-gray-300 py-20 px-6 border-t border-[#5b8ee2]">
       <div className="max-w-7xl mx-auto flex justify-center flex-row gap-20 ">
         <div className="flex-1">
-          <div className="mb-4">
-            <img
-              src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/logo_3DStudioz-q0v8m4bjd2671owevdg628b763xytk4ofjyb4y6u4g.png"
-              alt="3DStudioz Logo"
-              className="w-40"
-            />
-          </div>
-          {/* <div className="mb-4">
-            <img
-              src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/memphis_5-q0y27brceamwf3sellde0s0ondhw8ho7n0dd359ngg.png"
-              alt="Rotating Image"
-              className="w-40 h-auto transition-transform duration-150"
-              style={{
-                transform: `rotate(${scrollY * 0.5}deg)`, // rotate based on scroll
-              }}
-            />
-          </div> */}
+                  <Link to="/" className="inline-block">
+                    <img
+                      src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/logo_3DStudioz-q0v8m4bjd2671owevdg628b763xytk4ofjyb4y6u4g.png"
+                      alt="Home"
+                      className="w-50 h-auto "
+                    />
+                  </Link>
+   
           <p className="text-m mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
@@ -72,32 +63,32 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Services</h3>
           <ul className="space-y-2 text-m">
             <li>
-              <Link to="#" className="hover:text-[#5b8ee2]">
+              <Link to="/service" className="hover:text-[#5b8ee2]">
                 3D Modeling
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-[#5b8ee2]">
+              <Link to="/service" className="hover:text-[#5b8ee2]">
                 Animation
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-[#5b8ee2]">
+              <Link to="/service" className="hover:text-[#5b8ee2]">
                 NFT Art
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-[#5b8ee2]">
+              <Link to="/service" className="hover:text-[#5b8ee2]">
                 AR/VR Modeling
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-[#5b8ee2]">
+              <Link to="/service" className="hover:text-[#5b8ee2]">
                 Product Mockup
               </Link>
             </li>
             <li>
-              <Link to="#" className="hover:text-[#5b8ee2]">
+              <Link to="/service" className="hover:text-[#5b8ee2]">
                 Architectural Animation
               </Link>
             </li>

@@ -23,8 +23,11 @@ export default function Card() {
           />
         </div>
       </div>
-      <div className="flex justify-center gap-6 flex-row flex-wrap pt-40 pb-20 bg-black">
-       
+
+
+      <div className="flex justify-center gap-6 flex-row flex-wrap pt-40 pb-20 bg-[#1c1c1c]">
+               <SlideInSection direction="bottom">
+
           <div className="flex justify-center ml-22 mr-18 mb-10   ">
             <div className="text-white text-3xl flex-1 font-bold">
               Our latest portfolio
@@ -37,6 +40,7 @@ export default function Card() {
               nisl placerat. Volutpat mus odio placerat id mauris porta.
             </div>
           </div>
+          </SlideInSection>
        
 
                                 
