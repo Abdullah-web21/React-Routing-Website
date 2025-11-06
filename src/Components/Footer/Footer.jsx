@@ -3,16 +3,7 @@ import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 
 export default function Footer() {
-  const [scrollY, setScrollY] = useState(0)
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY)
-    };
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, []);
 
   return (
     <footer className="bg-[#121111] h-auto text-gray-300 py-10 px-6 border-t border-[#5b8ee2]">
