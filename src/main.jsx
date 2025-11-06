@@ -6,7 +6,7 @@ import Contact from "./Components/Contact/Contact.jsx"
 import Card from "./Components/Portfolio/Portfolio.jsx"
 import About from "./Components/About/About.jsx"
 import Service from "./Components/Service/Service.jsx"
-import Team from "./Components/Team/Team.jsx"
+import Team from "./Components/Teams/Team.jsx"
 import "./index.css";
 import {
   createBrowserRouter,
