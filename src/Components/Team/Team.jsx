@@ -35,7 +35,7 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="bg-[#1c1c1c] bg-no-repeat bg-cover bg pt-20 pb-20">
+      <div className="bg-[#1c1c1c] bg-no-repeat bg-cover bg pt-21 pb-20">
         <SlideInSection direction="bottom">
           <div>
             <div className="flex justify-center ">
