@@ -69,7 +69,7 @@ export default function About() {
               lineHeight: "12px",
               fontWeight: "500",
               padding: "15px 25px",
-              width:"30%",
+              width:"35%",
               fontFamily: "Inter, sans-serif",
             }}
           >

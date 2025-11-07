@@ -67,7 +67,7 @@ export default function Service() {
                   fontSize: "12px",
                   lineHeight: "12px",
                   fontWeight: "500",
-                  width: "35%",
+                  width: "40%",
                   padding: "15px 25px",
                   fontFamily: "Inter, sans-serif",
                 }}
@@ -110,8 +110,8 @@ export default function Service() {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center mt-20  gap-15 flex-wrap ">
-              <div className="block max-w-[380px] text-center relative bg-[#323437] rounded-[10px] p-6 pb-10 ">
+            <div className="flex justify-center mt-20  gap-10 flex-wrap ">
+              <div className="block max-w-[350px] text-center relative bg-[#323437] rounded-[10px] p-6 pb-10 ">
                 <div className="flex justify-center p-10 ">
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/SHAPE-TOOL-q0yowynbb7wm7m4dfgr61mcom3mxdrnaftf2wd21a8.png"
@@ -143,7 +143,7 @@ export default function Service() {
                 </Button>
               </div>
 
-              <div className="block max-w-[380px] text-center relative bg-[#323437] rounded-2xl p-6 ">
+              <div className="block max-w-[350px] text-center relative bg-[#323437] rounded-2xl p-6 ">
                 <div className="flex justify-center p-10 ">
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/VIDEO-PLAYER-q0yowzl5i1xwj8309z5sm4457hialgr0ry2kdn0n40.png"
@@ -175,7 +175,7 @@ export default function Service() {
                 </Button>
               </div>
 
-              <div className="block max-w-[380px] text-center relative bg-[#323437] rounded-2xl p-6 ">
+              <div className="block max-w-[350px] text-center relative bg-[#323437] rounded-2xl p-6 ">
                 <div className="flex justify-center p-10 ">
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/GAMES-q0yowty4d1q6lkb76wq175jdn6a3ba4mr65nhz905c.png"
@@ -207,7 +207,7 @@ export default function Service() {
                 </Button>
               </div>
 
-              <div className="block max-w-[380px] text-center relative bg-[#323437] rounded-2xl p-6 pb-10">
+              <div className="block max-w-[350px] text-center relative bg-[#323437] rounded-2xl p-6 pb-10">
                 <div className="flex justify-center p-10 ">
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/PAINT-BUCKET-q0yowvtsqpsr8s8gvxjac52aty0tqoc3ffgmgj67sw.png"
@@ -239,7 +239,7 @@ export default function Service() {
                 </Button>
               </div>
 
-              <div className="block max-w-[380px] text-center relative bg-[#323437] rounded-2xl p-6 ">
+              <div className="block max-w-[350px] text-center relative bg-[#323437] rounded-2xl p-6 ">
                 <div className="flex justify-center p-10 ">
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/COLOR-SLIDER-q0yowt0a67ow9yckcebemnrx1seq3l0wf1i60paebk.png"
@@ -271,7 +271,7 @@ export default function Service() {
                 </Button>
               </div>
 
-              <div className="block max-w-[380px] text-center relative bg-[#323437] rounded-2xl p-6 ">
+              <div className="block max-w-[350px] text-center relative bg-[#323437] rounded-2xl p-6 ">
                 <div className="flex justify-center p-10 ">
                   <img
                     src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/COLOR-PALLETES-q0yows2fzdnlycdxhvws260ggejcvvx62wuojfbshs.png"

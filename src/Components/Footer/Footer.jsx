@@ -6,7 +6,7 @@ export default function Footer() {
 
 
   return (
-    <footer className="bg-[#121111] h-auto text-gray-300 py-10 px-6 border-t border-[#5b8ee2]">
+    <footer className="bg-[#121111] h-auto text-gray-300 py-10 px-6 border-t-2 border-[#5b8ee2]">
       <div className="max-w-7xl mx-auto flex justify-center flex-row gap-20 ">
         <div className="flex-2">
                   <Link to="/" className="inline-block">
