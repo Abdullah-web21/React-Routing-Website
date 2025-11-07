@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#121111] h-auto text-gray-300 py-10 px-6 border-t border-[#5b8ee2]">
       <div className="max-w-7xl mx-auto flex justify-center flex-row gap-20 ">
-        <div className="flex-1">
+        <div className="flex-2">
                   <Link to="/" className="inline-block">
                     <img
                       src="https://web.moxcreative.com/3dstudioz/wp-content/uploads/sites/4/elementor/thumbs/logo_3DStudioz-q0v8m4bjd2671owevdg628b763xytk4ofjyb4y6u4g.png"

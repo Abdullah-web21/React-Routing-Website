@@ -4,11 +4,11 @@ import { Button } from "@mui/material"
 import SlideInSection from "../../Slide"
 
 export default function About() {
-  const [scrollY, setScrollY] = useState(0);
+  const [scrollY, setScroll] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY)
+      setScroll(window.scrollY)
     };
 
     window.addEventListener("scroll", handleScroll)

@@ -14,10 +14,10 @@ const Home = () => {
       >
         <SlideInSection direction="bottom">
           <div className="flex flex-col justify-center  align-middle text-white items-center h-100">
-            <div className="text-[49px] w-200 flex justify-center text-center font-bold mt-120 mb-4 leading-tight">
+            <div className="text-[49px] mb-5  w-200 flex justify-center text-center font-bold mt-120  leading-tight">
               Engaging you with Creative Design
             </div>
-            <div className="text-[20px] w-170 flex justify-center text-center mb-4 font-light leading-[26px] ">
+            <div className="text-[20px] w-170 flex justify-center text-center mb-8 font-light leading-[26px] ">
               Massa tellus suspendisse montes enim magnis nascetur dui in
               volutpat adipiscing urna
             </div>
