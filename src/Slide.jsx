@@ -4,7 +4,7 @@ const variants = {
   left: { hidden: { x: -100, opacity: 0 }, visible: { x: 0, opacity: 1 } },
   right: { hidden: { x: 100, opacity: 0 }, visible: { x: 0, opacity: 1 } },
   top: { hidden: { y: -100, opacity: 0 }, visible: { y: 0, opacity: 1 } },
-  bottom: { hidden: { y: 100, opacity: 0 }, visible: { y: 0, opacity: 1 } },
+  bottom: { hidden: { y: 100, opacity: 0.5 }, visible: { y: 0, opacity: 1 } },
 };
 
 export default function SlideInSection({ direction = "bottom", children }) {
@@ -12,8 +12,9 @@ export default function SlideInSection({ direction = "bottom", children }) {
     <motion.div
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true }}
       variants={variants[direction]}
-      transition={{ duration: 0.6, ease: "easeOut" }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
       className=" bg-transparent"
     >
       {children}

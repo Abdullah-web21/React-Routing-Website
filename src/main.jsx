@@ -6,6 +6,7 @@ import Contact from "./Components/Contact/Contact.jsx"
 import Card from "./Components/Portfolio/Portfolio.jsx"
 import About from "./Components/About/About.jsx"
 import Service from "./Components/Service/Service.jsx"
+import Team from "./Components/Team/Team.jsx"
 import "./index.css";
 import {
   createBrowserRouter,
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="portfolio" element={<Card />} />
       <Route path="about" element={<About />} />
       <Route path="service" element={<Service />} />
+      <Route path="team" element={<Team />} />
 
     </Route>
   )

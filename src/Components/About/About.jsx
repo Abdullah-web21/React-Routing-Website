@@ -4,11 +4,11 @@ import { Button } from "@mui/material"
 import SlideInSection from "../../Slide"
 
 export default function About() {
-  const [scrollY, setScrollY] = useState(0);
+  const [scrollY, setScroll] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollY(window.scrollY)
+      setScroll(window.scrollY)
     };
 
     window.addEventListener("scroll", handleScroll)
@@ -69,7 +69,7 @@ export default function About() {
               lineHeight: "12px",
               fontWeight: "500",
               padding: "15px 25px",
-              width:"30%",
+              width:"35%",
               fontFamily: "Inter, sans-serif",
             }}
           >
